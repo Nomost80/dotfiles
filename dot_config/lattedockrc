@@ -1,0 +1,30 @@
+[DownloadDialog Settings]
+Height 1080=488
+Width 1920=700
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Documents/dock.layout.latte,file:$HOME/Documents/dock.layout.latte
+detailViewIconSize=0
+
+[PlasmaThemeExtended]
+outlineWidth=1
+
+[ScreenConnectors]
+10=DP-2
+11=HDMI-1
+
+[UniversalSettings]
+badges3DStyle=false
+canDisableBorders=false
+currentLayout=Default
+downloadWindowSize=800,550
+lastNonAssignedLayout=Default
+launchers=
+layoutsColumnWidths=104,68,61,0
+layoutsWindowSize=700,561
+memoryUsage=0
+metaPressAndHoldEnabled=true
+mouseSensitivity=2
+screenTrackerInterval=2500
+showInfoWindow=true
+version=1
