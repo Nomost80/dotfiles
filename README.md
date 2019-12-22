@@ -46,6 +46,10 @@ chezmoi -v apply
 chezmoi update
 ```
 
+# Todo
+
+[ ] Set base dir (/home/guillaume) with a variable
+
 # Links
 
 * https://github.com/twpayne/chezmoi
