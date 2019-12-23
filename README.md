@@ -14,9 +14,15 @@ The goal is to quickly setup my environment after a fresh install of Manjaro KDE
 * Taskbar: Latte Dock
 * Kwin scripts: Tiling extension, latte windows colors
 * Login screen: Sugar Candy
-* Widgets: application dashboard, global menu, window title, window buttons, weather
+* Widgets
+  * application dashboard
+  * global menu
+  * window title
+  * window buttons
+  * weather
+  * todolist
 * Shell: Fish with shellder theme
-* Konsole: White on black theme
+* Konsole: White on black theme with transparency and blur
 
 Here is a dual screen view:
 ![Screen](images/my_kde.png)
