@@ -58,6 +58,8 @@ chezmoi update
 sh ~/.local/share/chezmoi/scripts/post-install.sh
 ```
 
+7. Reboot
+
 # Known Problems
 There are still some elements to handle manually:
 * Some widgets (not working and the positions)
