@@ -1,10 +1,10 @@
 sudo pacman -Syu --noconfirm
 
 # Install packages from official repositories
-sudo pacman -S --noconfirm fish nano wget curl rsync jq unzip git spotify discord code firefox
+sudo pacman -S --noconfirm fish nano wget curl rsync jq unzip git discord code firefox
 
 # Install packages from AUR
-yay -S --noconfirm bitwarden balena-etcher gtkhash
+yay -S --noconfirm --mflags --skipinteg bitwarden balena-etcher gtkhash spotify
 
 # Install fisher package manager
 cd ~/Downloads

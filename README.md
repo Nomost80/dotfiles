@@ -58,9 +58,15 @@ chezmoi update
 sh ~/.local/share/chezmoi/scripts/post-install.sh
 ```
 
+# Known Problems
+There are still some elements to handle manually:
+* Some widgets (not working and the positions)
+* Login screen
+* Wallpapers are added but not used
+
 # Todo
 
-[ ] Set base dir (/home/guillaume) with a variable
+- [ ] Set base dir (/home/guillaume) with a variable
 
 # Links
 

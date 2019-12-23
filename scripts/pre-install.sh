@@ -1,7 +1,7 @@
 sudo pacman -Syu --noconfirm
 
 # Install packages from official repositories
-sudo pacman -S --noconfirm base-devel yay git curl kcoreaddons kdeclarative plasma-framework kdecoration qt5-declarative qt5-x11extras extra-cmake-modules kvantum-manjaro
+sudo pacman -S --noconfirm base-devel yay git curl kcoreaddons kdeclarative plasma-framework kdecoration qt5-declarative qt5-x11extras extra-cmake-modules kvantum-manjaro latte-dock papirus-icon-theme
 
 # Install packages from AUR
 yay -S --noconfirm sierrabreeze-kwin-decoration-git
