@@ -1,3 +1,5 @@
+The goal is to quickly setup my environment after a fresh install of Manjaro KDE.
+
 # Description
 
 * Theme: Breeze Dark
@@ -34,16 +36,26 @@ sudo pacman -S chezmoi
 chezmoi init https://github.com/Nomost80/dotfiles.git
 ```
 
-3. See the diff
+3. Install dependencies
+```bash
+sh ~/.local/share/chezmoi/scripts/pre-install.sh
+```
+
+4. See the diff
 ```bash
 chezmoi diff
 ```
 
-4. Apply the changes
+5. Apply the changes
 ```bash
 chezmoi -v apply
-# for appling the last changes without fetch
+# or update with the last changes without fetching
 chezmoi update
+```
+
+6. (Optional) Install common packages
+```bash
+sh ~/.local/share/chezmoi/scripts/post-install.sh
 ```
 
 # Todo
