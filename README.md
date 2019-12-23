@@ -67,10 +67,16 @@ sh ~/.local/share/chezmoi/scripts/post-install.sh
 7. Reboot
 
 # Known Problems
-There are still some elements to handle manually:
-* Some widgets (not working and the positions)
+
+* Some widgets aren't working (need to reinstall/unset): 
+  * application dashboard
+  * weather
+
+# Still Manual
+
 * Login screen
-* Wallpapers are added but not used
+* Wallpapers
+* Application dashboard icon
 
 # Todo
 
