@@ -71,7 +71,7 @@ immutability=1
 plugin=org.kde.plasma.appmenu
 
 [Containments][57][Applets][58][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][57][Applets][58][Configuration][ConfigDialog]
 DialogHeight=540
@@ -82,7 +82,7 @@ immutability=1
 plugin=org.kde.windowbuttons
 
 [Containments][57][Applets][59][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][57][Applets][59][Configuration][ConfigDialog]
 DialogHeight=540
@@ -106,7 +106,7 @@ immutability=1
 plugin=org.kde.windowtitle
 
 [Containments][57][Applets][60][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][57][Applets][60][Configuration][ConfigDialog]
 DialogHeight=540
@@ -128,7 +128,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][57][Applets][61][Configuration]
-PreloadWeight=87
+PreloadWeight=89
 SystrayContainmentId=62
 
 [Containments][57][Applets][71]
@@ -136,7 +136,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][57][Applets][71][Configuration]
-PreloadWeight=47
+PreloadWeight=39
 
 [Containments][57][Applets][71][Configuration][Appearance]
 use24hFormat=0
@@ -150,7 +150,7 @@ immutability=1
 plugin=org.kde.plasma.kickerdash
 
 [Containments][57][Applets][84][Configuration]
-PreloadWeight=97
+PreloadWeight=94
 
 [Containments][57][Applets][84][Configuration][ConfigDialog]
 DialogHeight=540
@@ -169,18 +169,18 @@ immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][57][Applets][85][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][57][Applets][85][Configuration][General]
 expanding=false
-length=8
+length=5
 
 [Containments][57][Applets][87]
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][57][Applets][87][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][57][Applets][87][Configuration][General]
 expanding=false
@@ -191,7 +191,7 @@ immutability=1
 plugin=org.kde.weatherWidget
 
 [Containments][57][Applets][88][Configuration]
-PreloadWeight=52
+PreloadWeight=44
 
 [Containments][57][Applets][88][Configuration][Appearance]
 layoutType=Compact
@@ -201,6 +201,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][57][Applets][88][Configuration][General]
+lastReloadedMsJson={"cache_5a5440a6c6026f3e61c6aee598cae8dc":1576931271171,"cache_712084c1cbfb2bcc328f338024318059":1577108439949}
 places=[{"providerId":"yrno","placeIdentifier":"France/Picardy/Roye","placeAlias":"Roye"}]
 
 [Containments][57][Applets][88][Configuration][Units]
@@ -210,19 +211,29 @@ windSpeedType=2
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][57][Applets][96][Configuration]
+PreloadWeight=42
+
 [Containments][57][Applets][96][Configuration][General]
 expanding=false
 length=8
+
+[Containments][57][Applets][98]
+immutability=1
+plugin=com.github.zren.todolist
+
+[Containments][57][Applets][98][Configuration]
+PreloadWeight=60
 
 [Containments][57][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
 
 [Containments][57][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][57][General]
-AppletOrder=87;84;60;58;59;85;88;61;71;96
+AppletOrder=87;84;60;58;59;96;98;88;61;71;85
 
 [Containments][62]
 activityId=
@@ -238,66 +249,66 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][62][Applets][63][Configuration]
-PreloadWeight=57
+PreloadWeight=49
 
 [Containments][62][Applets][64]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][62][Applets][64][Configuration]
-PreloadWeight=47
+PreloadWeight=39
 
 [Containments][62][Applets][65]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][62][Applets][65][Configuration]
-PreloadWeight=47
+PreloadWeight=49
 
 [Containments][62][Applets][66]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][62][Applets][66][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][62][Applets][67]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][62][Applets][67][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][62][Applets][68]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][62][Applets][68][Configuration]
-PreloadWeight=52
+PreloadWeight=44
 
 [Containments][62][Applets][69]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][62][Applets][69][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][62][Applets][70]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][62][Applets][70][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][62][Applets][86]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][62][Applets][86][Configuration]
-PreloadWeight=47
+PreloadWeight=39
 
 [Containments][62][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][62][General]
 extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.bluetooth
@@ -317,14 +328,14 @@ immutability=1
 plugin=org.kde.plasma.appmenu
 
 [Containments][90][Applets][91][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][90][Applets][92]
 immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][90][Applets][92][Configuration]
-PreloadWeight=92
+PreloadWeight=84
 
 [Containments][90][Applets][92][Configuration][ConfigDialog]
 DialogHeight=540
@@ -340,7 +351,7 @@ immutability=1
 plugin=org.kde.windowtitle
 
 [Containments][90][Applets][93][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][90][Applets][93][Configuration][ConfigDialog]
 DialogHeight=540
@@ -361,7 +372,7 @@ immutability=1
 plugin=org.kde.windowbuttons
 
 [Containments][90][Applets][94][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][90][Applets][94][Configuration][ConfigDialog]
 DialogHeight=540
@@ -382,7 +393,7 @@ immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][90][Applets][95][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][90][Applets][95][Configuration][General]
 expanding=false
@@ -393,7 +404,7 @@ DialogHeight=84
 DialogWidth=1920
 
 [Containments][90][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][90][General]
 AppletOrder=95;92;93;91;94
