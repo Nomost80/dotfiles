@@ -1,7 +1,7 @@
 sudo pacman -Syu --noconfirm
 
 # Install packages from official repositories
-sudo pacman -S --noconfirm fish nano wget curl rsync jq unzip git discord code firefox
+sudo pacman -S --noconfirm fish nano wget curl rsync jq unzip git discord code firefox remmina libvncserver freerdp
 
 # Install packages from AUR
 yay -S --noconfirm --mflags --skipinteg bitwarden balena-etcher gtkhash spotify
