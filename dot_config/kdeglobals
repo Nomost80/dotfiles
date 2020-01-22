@@ -118,12 +118,12 @@ TerminalApplication[$e]=konsole
 XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=none
-dbfile=/home/guillaume/.mozilla/firefox/1o5lljxx.default/places.sqlite
+dbfile=/home/guillaume/.mozilla/firefox/pnqbayse.default/places.sqlite
 shadeSortColumn=true
 toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=Papirus-Dark
+Theme=Os-Catalina-icons
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
@@ -150,6 +150,9 @@ Sort directories first=true
 Sort reversed=false
 Speedbar Width=134
 View Style=Simple
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
 
 [Toolbar style]
 ToolButtonStyle=TextBesideIcon

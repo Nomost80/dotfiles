@@ -61,7 +61,7 @@ ShowTabBox=true
 SwitchingMode=0
 
 [Windows]
-BorderlessMaximizedWindows=true
+BorderlessMaximizedWindows=false
 
 [org.kde.kdecoration2]
 BorderSize=Normal
@@ -70,5 +70,5 @@ ButtonsOnLeft=MS
 ButtonsOnRight=HXAI
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
-library=org.kde.sierrabreeze
-theme=Sierra Breeze
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__McMojave

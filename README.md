@@ -3,12 +3,12 @@ The goal is to quickly setup my environment after a fresh install of Manjaro KDE
 # Description
 
 * Theme: Breeze Dark
-* Plasma style: Breeze Dark
+* Plasma style: McMojave
 * Color: Breeze Dark
-* Icons: Papirus Dark
+* Icons: Os-Catalina
 * Application style engine: Kvantum dark
 * Kvantum theme: akava
-* Window decorations: Sierra Breeze
+* Window decorations: McMojave
 * Font: Noto sans (default)
 * Cursors: Breeze
 * Taskbar: Latte Dock
@@ -18,17 +18,16 @@ The goal is to quickly setup my environment after a fresh install of Manjaro KDE
   * application dashboard
   * global menu
   * window title
-  * window buttons
   * weather
   * todolist
 * Shell: Fish with shellder theme
-* Konsole: White on black theme with transparency and blur
+* Konsole: White on black theme
 
 Here is a dual screen view:
 ![Screen](images/my_kde.png)
 
-And a full screen view:
-![Fullscreen](images/full_screen.png)
+And with a window:
+![Fullscreen](images/my_kde2.png)
 
 # Installation
 

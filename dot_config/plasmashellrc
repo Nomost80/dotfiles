@@ -7,8 +7,8 @@ Height 1080=1053
 Width 1920=1920
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Pictures/bmw-icon.png,file:$HOME/Pictures/thumb-1920-744722.png,file:$HOME/Pictures/thumb-1920-648258.png,file:$HOME/Pictures/thumb-1920-1010687.jpg,file:$HOME/Pictures/thumb-1920-737550.jpg,file:$HOME/Pictures/thumb-1920-679710.png,file:$HOME/Pictures/thumb-1920-487019.jpg,file:$HOME/Pictures/thumb-1920-1028317.png,file:$HOME/Pictures/kakashi_cat.png,file:$HOME/Pictures/6e774475d75c49868a7cdae7445617f0.jpg,file:$HOME/Downloads/apple.png,file:$HOME/Pictures/Archlinux-icon-crystal-64.svg,file:$HOME/Pictures/Archlinux-icon-crystal-64.svg.png,file:$HOME/Downloads/black-n-white-apple-logo-png-clipart-thumbnail(1).svg,file:$HOME/Downloads/black-n-white-apple-logo-png-clipart-thumbnail.svg,file:$HOME/Pictures/apple-logo-transparent-white-9.png,file:$HOME/Pictures/bmw-logo-248C3D90E6-seeklogo.com.png,file:$HOME/Pictures/Gentoo_Linux_logo_matte.svg
-Recent URLs[$e]=file:$HOME/Pictures/
+Recent Files[$e]=
+Recent URLs[$e]=
 detailViewIconSize=0
 iconViewIconSize=43
 listViewIconSize=15
